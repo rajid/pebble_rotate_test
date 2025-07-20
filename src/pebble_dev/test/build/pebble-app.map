@@ -1206,7 +1206,7 @@ LOAD /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-no
  .note.gnu.build-id
                 0x0000000000000084       0x24 linker stubs
 
-.text           0x00000000000000a8      0x413
+.text           0x00000000000000a8      0x41e
  *(.text)
  .text          0x00000000000000a8       0x14 /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
  *(.text.*)
@@ -1221,136 +1221,136 @@ LOAD /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-no
  .text.prv_click_config_provider
                 0x0000000000000164       0x30 src/c/test.c.33.o
  .text.prv_select_click_handler
-                0x0000000000000194       0x44 src/c/test.c.33.o
+                0x0000000000000194       0x4c src/c/test.c.33.o
  .text.log_heap
-                0x00000000000001d8       0x24 src/c/test.c.33.o
-                0x00000000000001d8                log_heap
+                0x00000000000001e0       0x24 src/c/test.c.33.o
+                0x00000000000001e0                log_heap
  .text.startup.main
-                0x00000000000001fc      0x118 src/c/test.c.33.o
-                0x00000000000001fc                main
+                0x0000000000000204      0x118 src/c/test.c.33.o
+                0x0000000000000204                main
  .text.app_event_loop
-                0x0000000000000314        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000314                app_event_loop
- .text.app_log  0x0000000000000320        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000320                app_log
+                0x000000000000031c        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x000000000000031c                app_event_loop
+ .text.app_log  0x0000000000000328        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000328                app_log
  .text.bitmap_layer_get_layer
-                0x000000000000032c        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x000000000000032c                bitmap_layer_get_layer
+                0x0000000000000334        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000334                bitmap_layer_get_layer
  .text.gbitmap_create_with_resource
-                0x0000000000000338        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000338                gbitmap_create_with_resource
+                0x0000000000000340        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000340                gbitmap_create_with_resource
  .text.layer_add_child
-                0x0000000000000344        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000344                layer_add_child
+                0x000000000000034c        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x000000000000034c                layer_add_child
  .text.layer_get_bounds
-                0x0000000000000350        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000350                layer_get_bounds
- .text.memset   0x000000000000035c        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x000000000000035c                memset
+                0x0000000000000358        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000358                layer_get_bounds
+ .text.memset   0x0000000000000364        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000364                memset
  .text.rot_bitmap_layer_create
-                0x0000000000000368        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000368                rot_bitmap_layer_create
+                0x0000000000000370        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000370                rot_bitmap_layer_create
  .text.rot_bitmap_layer_set_angle
-                0x0000000000000374        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000374                rot_bitmap_layer_set_angle
+                0x000000000000037c        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x000000000000037c                rot_bitmap_layer_set_angle
  .text.rot_bitmap_set_src_ic
-                0x0000000000000380        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000380                rot_bitmap_set_src_ic
+                0x0000000000000388        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000388                rot_bitmap_set_src_ic
  .text.window_create
-                0x000000000000038c        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x000000000000038c                window_create
+                0x0000000000000394        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000394                window_create
  .text.window_destroy
-                0x0000000000000398        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000398                window_destroy
+                0x00000000000003a0        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000003a0                window_destroy
  .text.window_get_root_layer
-                0x00000000000003a4        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000003a4                window_get_root_layer
+                0x00000000000003ac        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000003ac                window_get_root_layer
  .text.window_set_click_config_provider
-                0x00000000000003b0        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000003b0                window_set_click_config_provider
+                0x00000000000003b8        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000003b8                window_set_click_config_provider
  .text.window_set_window_handlers
-                0x00000000000003bc        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000003bc                window_set_window_handlers
+                0x00000000000003c4        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000003c4                window_set_window_handlers
  .text.window_stack_push
-                0x00000000000003c8        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000003c8                window_stack_push
+                0x00000000000003d0        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000003d0                window_stack_push
  .text.window_single_click_subscribe
-                0x00000000000003d4        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000003d4                window_single_click_subscribe
+                0x00000000000003dc        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000003dc                window_single_click_subscribe
  .text.heap_bytes_free
-                0x00000000000003e0        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000003e0                heap_bytes_free
+                0x00000000000003e8        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000003e8                heap_bytes_free
  .text.text_layer_create
-                0x00000000000003ec        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000003ec                text_layer_create
+                0x00000000000003f4        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000003f4                text_layer_create
  .text.text_layer_destroy
-                0x00000000000003f8        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000003f8                text_layer_destroy
+                0x0000000000000400        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000400                text_layer_destroy
  .text.text_layer_get_layer
-                0x0000000000000404        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000404                text_layer_get_layer
+                0x000000000000040c        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x000000000000040c                text_layer_get_layer
  .text.text_layer_set_text
-                0x0000000000000410        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000410                text_layer_set_text
+                0x0000000000000418        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000418                text_layer_set_text
  .text.text_layer_set_text_alignment
-                0x000000000000041c        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x000000000000041c                text_layer_set_text_alignment
+                0x0000000000000424        0xc /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000424                text_layer_set_text_alignment
  *(.rodata)
- .rodata        0x0000000000000428        0x4 src/c/test.c.33.o
+ .rodata        0x0000000000000430        0x4 src/c/test.c.33.o
  *(.rodata*)
  .rodata.str1.1
-                0x000000000000042c       0x8f src/c/test.c.33.o
-                                         0x96 (size before relaxing)
+                0x0000000000000434       0x92 src/c/test.c.33.o
+                                         0x99 (size before relaxing)
 
-.glue_7         0x00000000000004bc        0x0
+.glue_7         0x00000000000004c8        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x00000000000004bc        0x0
+.glue_7t        0x00000000000004c8        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x00000000000004bc        0x0
+.vfp11_veneer   0x00000000000004c8        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x00000000000004bc        0x0
+.v4_bx          0x00000000000004c8        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x00000000000004bc        0x0
+.iplt           0x00000000000004c8        0x0
  .iplt          0x0000000000000000        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x00000000000004bc        0x0
+.rel.dyn        0x00000000000004c8        0x0
  .rel.iplt      0x0000000000000000        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.data           0x00000000000004bc        0x4
+.data           0x00000000000004c8        0x4
  *(.data)
- .data          0x00000000000004bc        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x00000000000004bc        0x4 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x00000000000004bc                __dso_handle
- .data          0x00000000000004c0        0x0 src/c/test.c.33.o
- .data          0x00000000000004c0        0x0 aplite/appinfo.auto.c.33.o
- .data          0x00000000000004c0        0x0 aplite/src/resource_ids.auto.c.33.o
- .data          0x00000000000004c0        0x0 src/message_keys.auto.c.33.o
- .data          0x00000000000004c0        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
- .data          0x00000000000004c0        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x00000000000004c0        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x00000000000004c8        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x00000000000004c8        0x4 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x00000000000004c8                __dso_handle
+ .data          0x00000000000004cc        0x0 src/c/test.c.33.o
+ .data          0x00000000000004cc        0x0 aplite/appinfo.auto.c.33.o
+ .data          0x00000000000004cc        0x0 aplite/src/resource_ids.auto.c.33.o
+ .data          0x00000000000004cc        0x0 src/message_keys.auto.c.33.o
+ .data          0x00000000000004cc        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+ .data          0x00000000000004cc        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x00000000000004cc        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
 
-.igot.plt       0x00000000000004c0        0x0
+.igot.plt       0x00000000000004cc        0x0
  .igot.plt      0x0000000000000000        0x0 /Users/raj/Library/Application Support/Pebble SDK/SDKs/4.4/toolchain/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.bss            0x00000000000004c0       0x18
+.bss            0x00000000000004cc       0x18
  *(.bss)
  *(.bss.*)
  .bss.s_text_layer
-                0x00000000000004c0        0x4 src/c/test.c.33.o
- .bss.my_hour_hand_layer
-                0x00000000000004c4        0x4 src/c/test.c.33.o
- .bss.s_window  0x00000000000004c8        0x4 src/c/test.c.33.o
- .bss.my_window_layer
                 0x00000000000004cc        0x4 src/c/test.c.33.o
- .bss.angle     0x00000000000004d0        0x4 src/c/test.c.33.o
-                0x00000000000004d0                angle
+ .bss.my_hour_hand_layer
+                0x00000000000004d0        0x4 src/c/test.c.33.o
+ .bss.s_window  0x00000000000004d4        0x4 src/c/test.c.33.o
+ .bss.my_window_layer
+                0x00000000000004d8        0x4 src/c/test.c.33.o
+ .bss.angle     0x00000000000004dc        0x4 src/c/test.c.33.o
+                0x00000000000004dc                angle
  .bss.my_hour_hand_image
-                0x00000000000004d4        0x4 src/c/test.c.33.o
+                0x00000000000004e0        0x4 src/c/test.c.33.o
 
 DISCARD
  libc.a(*)

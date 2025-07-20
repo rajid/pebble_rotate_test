@@ -15,7 +15,7 @@ static void prv_select_click_handler(ClickRecognizerRef recognizer, void *contex
 
   int rad_angle;
   
-  angle += 10;
+  angle = (angle + 10) % 360;
   rad_angle = TRIG_MAX_ANGLE * angle / 360;
   rot_bitmap_layer_set_angle(my_hour_hand_layer, rad_angle);
 
@@ -40,7 +40,7 @@ static void prv_window_load(Window *window) {
   GRect bounds = layer_get_bounds(window_layer);
 
   s_text_layer = text_layer_create(GRect(0, 72, bounds.size.w, 20));
-  text_layer_set_text(s_text_layer, "Press a button");
+  text_layer_set_text(s_text_layer, "Press right arrow");
   text_layer_set_text_alignment(s_text_layer, GTextAlignmentCenter);
   layer_add_child(window_layer, text_layer_get_layer(s_text_layer));
 }
